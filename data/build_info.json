@@ -1,0 +1,65 @@
+{
+  "source_rows": {
+    "movies": 4803,
+    "credits": 4803
+  },
+  "join": "movies.id = credits.movie_id (one-to-one)",
+  "joined_rows": 4803,
+  "dropped_missing_metadata": [
+    {
+      "movie_id": 370980,
+      "title": "Chiamatemi Francesco - Il Papa della gente"
+    },
+    {
+      "movie_id": 459488,
+      "title": "To Be Frank, Sinatra at 100"
+    },
+    {
+      "movie_id": 292539,
+      "title": "Food Chains"
+    }
+  ],
+  "catalog_rows": 4800,
+  "schema_version": 1,
+  "built_at_utc": "2026-10-07T11:58:28.354363+00:00",
+  "source_url": "https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata",
+  "source_sha256": {
+    "tmdb_5000_movies.csv": "1e0584a8dd374120e4ed4f2b81f0d2bd0eb95a554708e4a350d00ed5c46d2825",
+    "tmdb_5000_credits.csv": "9d0050599ff88d40366c4841204b1489862bca346bfa46c20b05a65d14508435"
+  },
+  "vectorizer": {
+    "class": "CountVectorizer",
+    "max_features": 5000,
+    "stop_words": "english"
+  },
+  "feature_shape": [
+    4800,
+    5000
+  ],
+  "feature_dtype": "int64",
+  "nonzero_counts": 133691,
+  "zero_vector_rows": 0,
+  "python": "3.11.16",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "streamlit": "1.65.0"
+  },
+  "artifacts": {
+    "movies.json": {
+      "sha256": "2faabb1f7e3f4fc72b4af99337004f4d55dea38621d1d92a7c2f4eb701324a7c",
+      "bytes": 2936818
+    },
+    "vectors.npz": {
+      "sha256": "8e5f05bd6b301bea6beb2c44179c5d0e141664b5f85e56c950294558d599104a",
+      "bytes": 281747
+    },
+    "vocabulary.json": {
+      "sha256": "54b09ef9a34ffedf74622308072ef727e53461829b1d015a9b9612abcdd3cb94",
+      "bytes": 67312
+    }
+  },
+  "original_notebook_sha256": "887f8bba03a48987871b36b4df1469747c888df1a7b88122da75f5a7802ab601"
+}

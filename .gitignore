@@ -1,0 +1,13 @@
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
+.streamlit/secrets.toml
+raw_data/
+tmdb_5000_*.csv
+movie_list.pkl
+similarity.pkl

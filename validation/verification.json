@@ -1,0 +1,117 @@
+{
+  "asset_integrity": "passed",
+  "catalog_movies": 4800,
+  "feature_shape": [
+    4800,
+    5000
+  ],
+  "sparse_vs_dense_sample_rows": 128,
+  "max_absolute_cosine_difference": 1.2212453270876722e-15,
+  "examples": [
+    {
+      "query": "Avatar (2009)",
+      "recommendations": [
+        {
+          "movie": "Titan A.E. (2000)",
+          "cosine_similarity": 0.26089696604360174
+        },
+        {
+          "movie": "Small Soldiers (1998)",
+          "cosine_similarity": 0.2581988897471611
+        },
+        {
+          "movie": "Ender's Game (2013)",
+          "cosine_similarity": 0.25110592822973776
+        },
+        {
+          "movie": "Aliens vs Predator: Requiem (2007)",
+          "cosine_similarity": 0.24944382578492943
+        },
+        {
+          "movie": "Independence Day (1996)",
+          "cosine_similarity": 0.24846467329894412
+        }
+      ]
+    },
+    {
+      "query": "Batman (1989)",
+      "recommendations": [
+        {
+          "movie": "Batman & Robin (1997)",
+          "cosine_similarity": 0.47387910220727386
+        },
+        {
+          "movie": "The Dark Knight Rises (2012)",
+          "cosine_similarity": 0.32274861218395146
+        },
+        {
+          "movie": "Batman Begins (2005)",
+          "cosine_similarity": 0.3195741847747845
+        },
+        {
+          "movie": "Batman Returns (1992)",
+          "cosine_similarity": 0.3012320380383547
+        },
+        {
+          "movie": "Batman Forever (1995)",
+          "cosine_similarity": 0.2696799449852968
+        }
+      ]
+    },
+    {
+      "query": "Batman (1966)",
+      "recommendations": [
+        {
+          "movie": "The Croods (2013)",
+          "cosine_similarity": 0.24271195048676716
+        },
+        {
+          "movie": "Muppets Most Wanted (2014)",
+          "cosine_similarity": 0.23570226039551587
+        },
+        {
+          "movie": "The Helix... Loaded (2005)",
+          "cosine_similarity": 0.23094010767585035
+        },
+        {
+          "movie": "Austin Powers: The Spy Who Shagged Me (1999)",
+          "cosine_similarity": 0.2267786838055364
+        },
+        {
+          "movie": "Ice Age: Continental Drift (2012)",
+          "cosine_similarity": 0.22360679774997896
+        }
+      ]
+    },
+    {
+      "query": "My Date with Drew (2005)",
+      "recommendations": [
+        {
+          "movie": "Bad Grandpa (2013)",
+          "cosine_similarity": 0.16012815380508713
+        },
+        {
+          "movie": "Captive (2015)",
+          "cosine_similarity": 0.15768330559708868
+        },
+        {
+          "movie": "Whale Rider (2003)",
+          "cosine_similarity": 0.148916158209988
+        },
+        {
+          "movie": "Elizabethtown (2005)",
+          "cosine_similarity": 0.1416576493949657
+        },
+        {
+          "movie": "How to Fall in Love (2012)",
+          "cosine_similarity": 0.1358732440973515
+        }
+      ]
+    }
+  ],
+  "notebook_comparison": {
+    "tag_rows_equal": 4800,
+    "count_vectors_equal": true,
+    "join_correction_applied": true
+  }
+}
